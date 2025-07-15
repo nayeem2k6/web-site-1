@@ -35,3 +35,28 @@
             grid-template-columns:repeat(4,100px);
             justify-content: center;
         }
+        .clander{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            row-gap: 20px;
+            column-gap: 20px;
+        }
+        
+        .date{
+            background-color: aqua;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:1.5em;
+        }
+        .day{
+            background-color: blue;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:1.5em;
+        }
