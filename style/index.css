@@ -27,3 +27,11 @@
         .form-contner input{
             margin-top: 20px;
         }
+        .items{
+            border:1px solid blue;
+        }
+        .contineor{
+            display:grid;
+            grid-template-columns:repeat(4,100px);
+            justify-content: center;
+        }
